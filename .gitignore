@@ -2,6 +2,8 @@
 /public/
 /resources/_gen/
 
+# hugo 例子
+/themes/blowfish/exampleSite/
 # Hugo 缓存文件
 .hugo_build.lock
 
