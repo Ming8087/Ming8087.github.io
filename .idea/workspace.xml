@@ -5,121 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37690fb0-2322-4fc1-b68a-8d7cb0f7eef6" name="更改" comment="clear">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/gh-pages.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.hugo_build.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archetypes/default.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/_default/hugo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/_default/languages.de.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/_default/languages.en.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/_default/languages.es.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/_default/languages.fr.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/_default/languages.it.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/_default/languages.ja.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/_default/languages.pt-br.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/_default/languages.pt-pt.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/_default/languages.zh-cn.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/_default/markup.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/_default/menus.de.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/_default/menus.en.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/_default/menus.es.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/_default/menus.fr.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/_default/menus.it.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/_default/menus.ja.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/_default/menus.pt-br.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/_default/menus.pt-pt.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/_default/menus.zh-cn.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/_default/params.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/development/hugo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/posts/test01.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/posts/test2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/posts/test3.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/posts/test4.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/posts/test5.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hugo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/categories/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/categories/index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/categories/page/1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/main.bundle.min.b5368c8f64c443a2db3640baffb642b259c300b1b22c920ca173c246129a987e618d2ce489d86098e3470c351836906c95f0e0b44fd3514bb75ca118f8652640.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/FiraCode-Latin.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/FiraCode-LatinExt.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Roboto/roboto-v30-latin-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Roboto/roboto-v30-latin-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Roboto/roboto-v30-latin-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Roboto/roboto-v30-latin-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Roboto/roboto-v30-latin-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/computer-svgrepo-com.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/favicon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/moon-svgrepo-com.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/mstile-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/mstile-310x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/mstile-310x310.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/mstile-70x70.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/safari-pinned-tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/sun-svgrepo-com.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/appearance.min.6f41174b3a05b680820fe08cadbfa5fb7a7ca347b76a0955cdc68b9d8aca1ce24f0547e138cea33bcc7904d551a90afcb1cc7f2d9fe8557075d501419046c08c.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/main.bundle.min.67624a357c928d29b9fe19ba01a1e32c05ad1329ca2a712bf10446df0c6872903d0c14b21f76896b57a5a0710940805416cee38851d9067db6555881188e35a5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/page.min.54b6f4371722649edbe871e431d8670d670878c22be8f36e229fe53cc9b786fe25a834def5e6de621f7a3e37b72bc8cd73839aa5ed907ed6cbd45cd3e1b0fa20.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/jquery/jquery.slim.min.b0dca576e87d7eaa5850ae4e61759c065786cdb6489d68fcc82240539eebd5da522bdb4fda085ffd245808c8fe2acb2516408eb774ef26b5f6015fc6737c0ea8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/zoom/zoom.min.umd.a527109b68c082a70f3697716dd72a9d5aa8b545cf800cecbbc7399f2ca6f6e0ce3e431f2062b48bbfa47c9ea42822714060bef309be073f49b9c0e30d318d7b.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/og-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page/1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/posts/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/posts/index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/posts/page/1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/posts/test01/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/posts/test2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/posts/test3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/posts/test4/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/posts/test5/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/style.min.51098b80cc297c94c0f57786d4a04e7372774e5993b60facf53870128a79bf73.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/site.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/style.min.e390ba7da26222f4dc42a349955d76dbbe44e5ce2535a43de5a70633a0a9ec3c.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tags/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tags/index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tags/page/1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ts/gallery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ts/main.c9e3fff947ee3f8d6a43022bb61bf3da1660d8bb19c2886c640880bb144c9367.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/sass/main.scss_3ec8e0fa91f2f30b6b4b66f36c8c1e78.content" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/sass/main.scss_3ec8e0fa91f2f30b6b4b66f36c8c1e78.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/scss/style.scss_77b10c8e87ff110a62c52933fe3f7f11.content" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/scss/style.scss_77b10c8e87ff110a62c52933fe3f7f11.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/_default/hugo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config/_default/hugo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/_default/languages.de.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/_default/languages.en.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config/_default/languages.en.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/_default/languages.es.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/_default/languages.fr.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/_default/languages.it.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/_default/languages.ja.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/_default/languages.pt-br.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/_default/languages.pt-pt.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/_default/languages.zh-cn.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config/_default/languages.zh-cn.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/_default/menus.de.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/_default/menus.en.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/_default/menus.es.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/_default/menus.fr.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/_default/menus.it.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/_default/menus.ja.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/_default/menus.pt-br.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/_default/menus.pt-pt.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/_default/menus.zh-cn.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config/_default/menus.zh-cn.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/_default/params.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config/_default/params.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/posts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/posts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/posts/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/posts/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/posts/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/posts/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/posts/test01/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/posts/test01/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/posts/test2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/posts/test2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/posts/test3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/posts/test3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/posts/test4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/posts/test4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/posts/test5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/posts/test5/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,12 +83,17 @@
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "E:/编程/Go/project/Ming8087.github.io",
+    "last_opened_file_path": "E:/编程/Go/project/Ming8087.github.io/themes/blowfish/config/_default",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\编程\Go\project\Ming8087.github.io\themes\blowfish\config\_default" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
