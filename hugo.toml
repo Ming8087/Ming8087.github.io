@@ -1,0 +1,5 @@
+baseURL = 'https://127.0.0.1/'
+theme = "stack"
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+extended = true

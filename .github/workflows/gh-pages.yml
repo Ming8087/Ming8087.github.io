@@ -1,0 +1,50 @@
+name: Deploy Hugo Site to Pages
+
+on:
+  push:
+    branches: ["main"]  # 触发分支，可根据你的主分支名修改
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true  # 拉取主题子模块（Blowfish）
+          fetch-depth: 0    # 完整拉取历史，用于生成文章日期等信息
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true    # 必须启用扩展版，Blowfish 依赖它
+
+      - name: Build
+        run: hugo --gc --minify  # 编译并压缩静态文件
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public  # 上传编译好的静态文件
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
