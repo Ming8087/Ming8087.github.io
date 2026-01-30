@@ -1,22 +1,21 @@
 languageCode = "zh-cn"
 languageName = "简体中文"
-weight = 9
-title = "Blowfish"
+weight = 1
+title = "小明icode的技术博客"
 
 [params]
-  displayName = "简体中文"
-  isoCode = "zh-cn"
-  rtl = false
-  dateFormat = "2006-01-02"
-  logo = "img/blowfish_logo_transparent.png"
-  description = "一个强大、轻量级的 Hugo 主题。"
+displayName = "简体中文"
+isoCode = "zh-cn"
+rtl = false
+dateFormat = "2006-01-02"
+logo = "img/blowfish_logo_transparent.png"
+description = "专注云原生和devops的技术博客，分享实战经验和学习笔记"
 
 [params.author]
-  name = "Blowfish"
-  image = "img/blowfish_logo.png"
-  headline = "一个强大、轻量级的 Hugo 主题。"
-  bio = "一个强大、轻量级的 Hugo 主题。"
-  links = [
-    { x-twitter = "https://twitter.com/burufugu" },
-    { github = "https://github.com/nunocoracao/blowfish" },
-  ]
+name = "小明icode"
+image = "img/blowfish_logo.png"
+headline = "云原生开发者"
+bio = "专注云原生开发和devops，分享实战项目和踩坑经验，希望能帮到更多开发者。"
+links = [
+  { github = "https://github.com/Ming8087" },
+]
