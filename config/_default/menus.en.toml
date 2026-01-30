@@ -44,4 +44,4 @@ weight = 60
 identifier = "github"
 pre = "github"
 url = "https://github.com/Ming8087"
-weight = 50
+weight = 70
