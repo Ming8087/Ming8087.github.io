@@ -19,4 +19,5 @@ bio = "Focused on cloud native development and DevOps, sharing practical project
 links = [
   { github = "https://github.com/Ming8087" },
   { email = "czming87@163.com" },
+  { bilibili = "https://space.bilibili.com/509191678" }
 ]
