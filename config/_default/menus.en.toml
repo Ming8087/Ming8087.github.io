@@ -17,27 +17,27 @@ weight = 10
 
 [[main]]
 name = "Articles"  # 文章（英文博客常用 Articles 而非 Posts）
-pageRef = "posts"
+pageRef = "/posts"
 weight = 20
 
 [[main]]
 name = "Archives"  # 归档
-pageRef = "archives"
+pageRef = "/archives"
 weight = 30
 
 [[main]]
 name = "Tags"  # 标签
-pageRef = "tags"
+pageRef = "/tags"
 weight = 40
 
 [[main]]
 name = "Works"  # 作品（简洁且符合技术博客表达）
-pageRef = "works"
+pageRef = "/works"
 weight = 50
 
 [[main]]
 name = "About"  # 关于
-pageRef = "about"
+pageRef = "/about"
 weight = 60
 
 [[main]]

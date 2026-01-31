@@ -14,8 +14,10 @@ description = "专注云原生和devops的技术博客，分享实战经验和�
 [params.author]
 name = "小明icode"
 image = "img/blowfish_logo.png"
-headline = "云原生开发者"
+headline = "**云原生 & DevOps 工程师 | Golang爱好者 | 开源贡献者**"
 bio = "专注云原生开发和devops，分享实战项目和踩坑经验，希望能帮到更多开发者。"
 links = [
   { github = "https://github.com/Ming8087" },
+  { email = "czming87@163.com" },
+  { bilibili = "https://space.bilibili.com/509191678" }
 ]
