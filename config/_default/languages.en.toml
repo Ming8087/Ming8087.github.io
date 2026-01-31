@@ -1,23 +1,22 @@
 languageCode = "en"
 languageName = "English"
 weight = 2
-title = "Xiaoming Icode's Tech Blog"  # 对应中文标题的英文翻译，简洁易读
+title = "Xiaoming Icode's Tech Blog"
 
 [params]
 displayName = "English"
 isoCode = "en"
 rtl = false
-dateFormat = "2 January 2006"  # 保留英文常用的日期格式（日 月 年）
-logo = "img/blowfish_logo_transparent.png"  # 若有英文版本logo可替换，无则保留原路径
-description = "Focus on cloud native and DevOps technical blog, sharing practical experience and learning notes"  # 中文描述的精准英文翻译
+dateFormat = "2 January 2006"
+logo = "img/blowfish_logo_transparent.png"
+description = "A technical blog focused on cloud native and DevOps, sharing practical experience and learning notes"
 
 [params.author]
-name = "Xiaomingicode"  # 和中文作者名统一，用拼音+code的形式
-# email = "你的邮箱
-image = "img/blowfish_logo.png"  # 头像路径和中文端保持一致
-headline = "Cloud Native Developer"  # 对应中文“云原生开发者”
-bio = "Focus on cloud native development and DevOps, sharing practical projects and troubleshooting experience, hoping to help more developers."  # 中文bio的英文翻译，语言更自然
+name = "Xiaoming Icode"
+image = "img/blowfish_logo.png"
+headline = "**Cloud Native & DevOps Engineer | Golang Enthusiast | Open Source Contributor**"
+bio = "Focused on cloud native development and DevOps, sharing practical projects and troubleshooting experience to help more developers."
 links = [
-  { github = "https://github.com/Ming8087" },  # 替换成你的GitHub链接
-  # { x-twitter = "https://twitter.com/你的推特账号" },  # 有推特则保留并替换链接，无则删掉这行
+  { github = "https://github.com/Ming8087" },
+  { email = "czming87@163.com" },
 ]
