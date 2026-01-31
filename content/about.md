@@ -4,13 +4,13 @@ draft = false
 title = '关于我'
 +++
 
-大家好，我是小明icode，一名专注云原生和 DevOps 的开发者。
+大家好，我是小明icode，一名专注云原生与 DevOps 领域的技术开发者
 
 ### 我的技术栈
-- 后端：Go、Kubernetes、Docker
+- 后端：Go、Java、Kubernetes、Docker
 - 运维：Jenkins、GitLab CI、Prometheus
-- 其他：Linux、Shell 脚本、云平台（阿里云/腾讯云）
+- 其他：Linux、云平台（阿里云/腾讯云）
 
 ### 联系方式
 - GitHub：[Ming8087](https://github.com/Ming8087)
-- 邮箱：czming87@163.com
+- 邮箱：[czming87@163.com](mailto:czming87@163.com)

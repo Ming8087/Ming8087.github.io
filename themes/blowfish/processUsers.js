@@ -128,7 +128,7 @@ async function translateFrontMatterTags(block, targetLang, tags) {
     
 
     console.log(i, user.title, dir);
-    await fs.writeFile(dir + "/index.md", userMDFile);
+    await fs.writeFile(dir + "/index.en.md", userMDFile);
     for (var lang of targetLangs) {
       const langfilename = lang
       if (lang == "pt-br" || lang == "pt-pt")

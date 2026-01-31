@@ -9,7 +9,7 @@
  *   3. Run: node seed-firebase-views.js <path-to-csv>
  *
  * The script maps GA page paths to Blowfish document IDs:
- *   /docs/configuration/ → views_docs-configuration-index.md
+ *   /docs/configuration/ → views_docs-configuration-index.en.md
  */
 
 import { initializeApp, cert } from 'firebase-admin/app';
@@ -82,10 +82,10 @@ function stripLanguagePrefix(pagePath) {
 /**
  * Convert a GA page path to a Blowfish Firestore document ID
  *
- * Blowfish uses .File.Path which includes "index.md" for page bundles:
+ * Blowfish uses .File.Path which includes "index.en.md" for page bundles:
  *   GA path: /docs/configuration/
- *   Hugo file: docs/configuration/index.md
- *   Firestore ID: views_docs-configuration-index.md
+ *   Hugo file: docs/configuration/index.en.md
+ *   Firestore ID: views_docs-configuration-index.en.md
  */
 function pathToDocId(pagePath) {
   // First strip any language prefix
@@ -101,7 +101,7 @@ function pathToDocId(pagePath) {
   }
 
   // For section pages like /docs/, the file is docs/_index.md
-  // For article pages like /docs/configuration/, the file is docs/configuration/index.md
+  // For article pages like /docs/configuration/, the file is docs/configuration/index.en.md
   // We can tell them apart: section pages don't have a second path segment after the section
 
   const parts = cleanPath.split('/');
@@ -109,8 +109,8 @@ function pathToDocId(pagePath) {
     // Section page like "docs" → docs/_index.md
     cleanPath = `${cleanPath}-_index.md`;
   } else {
-    // Article page like "docs/configuration" → docs/configuration/index.md → docs-configuration-index.md
-    cleanPath = cleanPath.replace(/\//g, '-') + '-index.md';
+    // Article page like "docs/configuration" → docs/configuration/index.en.md → docs-configuration-index.en.md
+    cleanPath = cleanPath.replace(/\//g, '-') + '-index.en.md';
   }
 
   // Replace any remaining slashes with hyphens

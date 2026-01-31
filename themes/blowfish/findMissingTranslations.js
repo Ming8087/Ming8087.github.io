@@ -21,7 +21,7 @@ function readConfigs() {
 }
 
 async function processFile(filePath, file) {
-  if (filePath.indexOf("index.md") > -1) {
+  if (filePath.indexOf("index.en.md") > -1) {
     //console.log("processing", filePath)
 
     for (var i in targetLangs) {
